@@ -1,0 +1,39 @@
+$ git init - иницијализација на GIT репозиориум
+$ git remote add origin https://github.com/srbinovskia46/SI_2023_lab1_213135.git - додавање на remote репозиториум
+$ touch README.md - креирање на README фајл
+$ git add README.md - додавање на README.md во untracked
+$ git commit -a -m "Initial commit" - првиот commit
+$ touch SILab1.java - креирање на java фајл
+$ nano SILab1.java - копирање на содржината од приложениот документ
+$ git branch bug1 - креирање на гранка bug1
+$ git branch bug2 - креирање на гранка bug2
+$ git branch bug3 - креирање на гранка bug3
+$ git checkout bug1 - се префрлам на грнката bug1
+$ nano SILab1.java - поправање на грешката
+$ git add SILab1.java - додавање на фајлот
+$ git commit -a -m "Fix wrong loop for reading" - commit по корекција на грешката
+$ git checkout bug2 - се префрлам на грнката bug2
+$ nano SILab1.java - поправање на грешката
+$ git commit -a -m " Fix wrong condition in filterOddNumbers" - commit по корекција на грешката
+$ git checkout bug2 - се префрлам на грнката bug2
+$ git checkout bug3 - се префрлам на грнката bug3
+$ nano SILab1.java - поправање на грешката
+$ git commit -a -m "Fix method sumEvenNumbers" - - commit по корекција на грешката
+$ git push --set-upstream origin bug3 - push на локалната гранка на remote репозиториумот
+$ git checkout bug1 - се префрлам на грнката bug1
+$ git push --set-upstream origin bug1 - push на локалната гранка на remote репозиториумот
+$ git checkout bug2 - се префрлам на грнката bug2
+$ git push --set-upstream origin bug2 - push на локалната гранка на remote репозиториумот
+$ git checkout master - се префрлам на грнката master
+$ git merge bug1 - правиме merge на master со bug1
+$ git push - синхронизираме со remote
+$ git merge bug2 - правиме merge на master со bug2
+$ git push - синхронизираме со remote
+$ git checkout bug3 - се префрлам на грнката bug3
+$ git fetch - ги земам промените од remote
+$ git rebase master - правам rebase од bug3 кон master 
+$ git checkout master - се префрлам на грнката master
+$ git merge bug3 - правиме merge на master со bug3
+
+
+

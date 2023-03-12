@@ -1,0 +1,36 @@
+commit b7a59cba816aa26f6e1bd516e7430f54ec02cbd0 (HEAD -> master, origin/master, bug3)
+Author: srbinovskia46 <andrej.srbinovski@students.finki.ukim.mk>
+Date:   Sun Mar 12 15:31:57 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit c71e7aa372f365adcba045507816c9c7642b79ae
+Merge: a0e5da3 953ad5b
+Author: srbinovskia46 <andrej.srbinovski@students.finki.ukim.mk>
+Date:   Sun Mar 12 15:35:47 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 953ad5bf6776676982d2dd74d225f53352ea8c6b (origin/bug2, bug2)
+Author: srbinovskia46 <andrej.srbinovski@students.finki.ukim.mk>
+Date:   Sun Mar 12 15:30:53 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit a0e5da36328621035caaaf9c69db71a2b9df49c4 (origin/bug1, bug1)
+Author: srbinovskia46 <andrej.srbinovski@students.finki.ukim.mk>
+Date:   Sun Mar 12 15:29:37 2023 +0100
+
+    Fix wrong loop for reading
+
+commit 51a63ce0adb1ca84ad8f974f50ad98908446d954
+Author: srbinovskia46 <andrej.srbinovski@students.finki.ukim.mk>
+Date:   Sun Mar 12 15:27:31 2023 +0100
+
+    Add java class
+
+commit 5d444bc27efa515e04b20dce87fc9b6be243894f
+Author: srbinovskia46 <andrej.srbinovski@students.finki.ukim.mk>
+Date:   Sun Mar 12 15:18:31 2023 +0100
+
+    Initial commit
